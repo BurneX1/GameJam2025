@@ -17,7 +17,7 @@ public class Interacter : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         for (int i = 0; i < intrTag.Length; i++)
         {
@@ -33,7 +33,7 @@ public class Interacter : MonoBehaviour
         
     }
 
-    private void OnTriggerExit(Collider collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject == interactObj)
         {
