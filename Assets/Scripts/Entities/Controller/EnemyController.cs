@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
     public void BounceMove()
     {
         if (cmp_cast.directions[valueListDirection].check == false) return;
-
+        Debug.Log("Bounce!");
         List<int> list = new List<int>();
         for (int i = 0;i< cmp_cast.directions.Length;i++)
         {

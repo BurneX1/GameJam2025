@@ -18,15 +18,13 @@ public class LevelManager : MonoBehaviour
     private void OnEnable()
     {
 
-
-        actualFiles = 0;
-        displayedFiles = 0;
-        RefreshUI();
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+        actualFiles = 0;
+        displayedFiles = -1;
+        RefreshUI();
     }
 
     // Update is called once per frame
@@ -49,7 +47,7 @@ public class LevelManager : MonoBehaviour
 
         RefreshUI();
 
-        CheckVictory();
+        CheckDoorLock();
 
     }
 
@@ -61,9 +59,16 @@ public class LevelManager : MonoBehaviour
         canvasManager.gameObject.SetActive(false);
     }
 
+    public void CheckDoorLock()
+    {
+        if (actualFiles < maxFiles) return;
+
+        levelGoal.OpenDoor();
+    }
+
     public void CheckVictory()
     {
-        if (actualFiles <= maxFiles || canvasManager == null) return;
+        if( canvasManager == null) return;
 
         canvasManager.ActiveCanv(winCanvasName);
         canvasManager.gameObject.SetActive(false);

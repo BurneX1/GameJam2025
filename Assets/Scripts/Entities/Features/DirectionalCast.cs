@@ -37,7 +37,7 @@ public class DirectionalCast : MonoBehaviour
         RaycastHit2D hit = Physics2D.BoxCast
             (
             transform.position,
-            new Vector2((cmp_coll.size.x) * 0.65f, 0.1f),
+            new Vector2((cmp_coll.size.x) * 0.65f, (cmp_coll.size.x) * 0.65f),
             0,
             direction.direction,
             distance,
@@ -46,7 +46,7 @@ public class DirectionalCast : MonoBehaviour
         bool grn = Physics2D.BoxCast
             (
             transform.position,
-            new Vector2((cmp_coll.size.x) * 0.65f, 0.1f),
+            new Vector2((cmp_coll.size.x) * 0.65f, (cmp_coll.size.x) * 0.65f),
             0,
             direction.direction,
             distance,
