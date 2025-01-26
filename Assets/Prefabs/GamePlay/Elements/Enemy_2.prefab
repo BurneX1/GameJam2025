@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 5071875334243843968}
   - component: {fileID: 2810218311871003056}
   - component: {fileID: 1266235730449120398}
+  - component: {fileID: 6549450270858203165}
   m_Layer: 3
   m_Name: Enemy_2
   m_TagString: Enemy
@@ -225,6 +226,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6549450270858203165}
+        m_TargetAssemblyTypeName: AudioCaller, Assembly-CSharp
+        m_MethodName: CallPlay
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: BadDialogue
+          m_BoolArgument: 0
+        m_CallState: 2
   loopable: 0
 --- !u!114 &6275204305705910763
 MonoBehaviour:
@@ -339,3 +352,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7f447a06e337a4b859fdaddf99a5de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6549450270858203165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551200510853785088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6221ee357f45b8e4e89f3fbe1b8de4ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableAudioCall: 

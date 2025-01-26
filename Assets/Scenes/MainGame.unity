@@ -8709,37 +8709,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: e0619443de44dc04fbe78d2c42e1051c, type: 3}
-    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 67
-      objectReference: {fileID: 0}
     - target: {fileID: 9113192135289214733, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
       propertyPath: m_Name
       value: Victory
-      objectReference: {fileID: 0}
-    - target: {fileID: 9113192135289214733, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

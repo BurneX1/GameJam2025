@@ -53,6 +53,62 @@ MonoBehaviour:
     volume: 0.255
     pitch: 0
     audioSource: {fileID: 0}
+  - name: Dialogue
+    audioClip: {fileID: 8300000, guid: c247ab5eeb55a9f46a88829674c951cf, type: 3}
+    loop: 0
+    bgm: 0
+    volume: 0.255
+    pitch: 0
+    audioSource: {fileID: 0}
+  - name: BadDialogue
+    audioClip: {fileID: 8300000, guid: 09ef11fa97044514aa95089c33c917fb, type: 3}
+    loop: 0
+    bgm: 0
+    volume: 0.255
+    pitch: 0
+    audioSource: {fileID: 0}
+  - name: CloseDoor
+    audioClip: {fileID: 8300000, guid: 4abebc594d20f064cb6273819e0f5a9b, type: 3}
+    loop: 0
+    bgm: 0
+    volume: 0.255
+    pitch: 0
+    audioSource: {fileID: 0}
+  - name: OpenDor
+    audioClip: {fileID: 8300000, guid: cb008dabb8faeae40b69534ab96f7d1d, type: 3}
+    loop: 0
+    bgm: 0
+    volume: 0.255
+    pitch: 0
+    audioSource: {fileID: 0}
+  - name: Heart
+    audioClip: {fileID: 8300000, guid: 88d79de0757741f43836cce3f8e2f4a9, type: 3}
+    loop: 0
+    bgm: 0
+    volume: 0.255
+    pitch: 0
+    audioSource: {fileID: 0}
+  - name: File
+    audioClip: {fileID: 8300000, guid: 51f9e3ac3052de245849005b6bfb172e, type: 3}
+    loop: 0
+    bgm: 0
+    volume: 0.255
+    pitch: 0
+    audioSource: {fileID: 0}
+  - name: Steps
+    audioClip: {fileID: 8300000, guid: c1a10579de361f54dbacd664c3ad8fef, type: 3}
+    loop: 0
+    bgm: 0
+    volume: 0.255
+    pitch: 0
+    audioSource: {fileID: 0}
+  - name: Buton
+    audioClip: {fileID: 8300000, guid: cf16b1bd4c09fdc4388e9edecd7f80d2, type: 3}
+    loop: 0
+    bgm: 0
+    volume: 0.255
+    pitch: 0
+    audioSource: {fileID: 0}
   musicMixer: {fileID: 3869460133064506456, guid: 8b130c4edacaa8440a193ac067cbe4fc, type: 2}
   soundMixer: {fileID: -273990576676983781, guid: 8b130c4edacaa8440a193ac067cbe4fc, type: 2}
   musicMute: 0

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2649214766541980912}
   - component: {fileID: 926057893171291075}
   - component: {fileID: 1307427842076457077}
+  - component: {fileID: 7465787716281906608}
   m_Layer: 0
   m_Name: Collectable
   m_TagString: Collectable
@@ -201,6 +202,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7465787716281906608}
+        m_TargetAssemblyTypeName: AudioCaller, Assembly-CSharp
+        m_MethodName: CallPlay
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: File
+          m_BoolArgument: 0
+        m_CallState: 2
   loopable: 0
 --- !u!95 &926057893171291075
 Animator:
@@ -235,3 +248,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7f447a06e337a4b859fdaddf99a5de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7465787716281906608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476819934188363307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6221ee357f45b8e4e89f3fbe1b8de4ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableAudioCall: 

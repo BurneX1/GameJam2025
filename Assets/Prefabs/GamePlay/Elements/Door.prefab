@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 2295225940696031525}
   - component: {fileID: 5329251948997813914}
   - component: {fileID: 4015982653974841065}
+  - component: {fileID: 3343024753378154060}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -303,6 +304,19 @@ MonoBehaviour:
   open: {fileID: 1460119286213337117}
   close: {fileID: 6460556394589411862}
   animator: {fileID: 0}
+--- !u!114 &3343024753378154060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337655039332410856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6221ee357f45b8e4e89f3fbe1b8de4ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableAudioCall: 
 --- !u!1 &6460556394589411862
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +439,19 @@ MonoBehaviour:
   onFirstTriger: 0
   eventList:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3343024753378154060}
+        m_TargetAssemblyTypeName: AudioCaller, Assembly-CSharp
+        m_MethodName: CallPlay
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CloseDoor
+          m_BoolArgument: 0
+        m_CallState: 2
   loopable: 0
 --- !u!212 &4754372660205834203
 SpriteRenderer:
