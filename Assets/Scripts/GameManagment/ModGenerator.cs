@@ -59,21 +59,35 @@ public class ModGenerator : MonoBehaviour
 
     public void GenerateFiles()
     {
-        if (levelManager.maxFiles > moduleValues.Length)
+        for(int i = 0; i < levelManager.maxFiles; i++)
         {
+            bool instantiated = false;
+            int value = Random.Range(1, moduleValues.Length - 1);
 
-        }
-        else
-        {
+            while(instantiated==true)
+            {
+                if (moduleValues[value].fileSpawned) value++;
+                if (value > moduleValues.Length - 1) value = 1;
 
+            }
+
+            if (levelManager.maxFiles > 7)
+            {
+
+            }
+            else
+            {
+                
+            }
         }
+
     }
 
     public void CreateFile(Vector2 position)
     {
 
-        GameObject enmyObj = Instantiate(enemies[Random.Range(0, enemies.Length)]);
-        enmyObj.transform.position = position;
+        GameObject fileObj = Instantiate(files);
+        fileObj.transform.position = position;
 
 
     }
