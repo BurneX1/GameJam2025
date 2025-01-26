@@ -76,7 +76,7 @@ public class LevelManager : MonoBehaviour
         if (actualFiles < maxFiles) return;
 
         levelGoal.OpenDoor();
-        AudioManager.Instance.Play("OpenDoor", AudioManager.Instance.sounds);
+        AudioManager.instance.Play("OpenDoor");
     }
 
     public void CheckVictory()

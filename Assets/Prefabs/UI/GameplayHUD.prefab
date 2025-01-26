@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5177484016637302920
 RectTransform:
   m_ObjectHideFlags: 0
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TIME
+  m_text: TIEMPO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 81f4145a35d9e164e96c83623496d69a, type: 2}
   m_sharedMaterial: {fileID: 4281919815219371278, guid: 81f4145a35d9e164e96c83623496d69a, type: 2}
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.85
+  m_fontSize: 40.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

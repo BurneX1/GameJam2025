@@ -5834,6 +5834,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxFiles: 4
   actualFiles: 0
+  postDefeatCanvas: 
+  postWinCanvas: 
   fileCounter: {fileID: 814170363}
   canvasManager: {fileID: 1915606917}
   winCanvasName: Victory
