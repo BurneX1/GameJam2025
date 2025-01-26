@@ -6,6 +6,8 @@ using UnityEngine;
 public class ModGenerator : MonoBehaviour
 {
     public LevelManager levelManager;
+
+    public GameObject files;
     public GameObject[] enemies;
 
     public ModulePack[] modules;
@@ -39,20 +41,18 @@ public class ModGenerator : MonoBehaviour
 
         }
 
+        GenerateEnemies();
     }
 
     public void GenerateEnemies()
     {
         for (int i = 0; i < moduleValues.Length; i++)
         {
-            foreach(GameObject obj in moduleValues[i].enemySpawns)
+            for(int e = 0; e < moduleValues[i].enemySpawns.Length; e++)
             {
                 GameObject enmyObj = Instantiate(enemies[Random.Range(0, enemies.Length)]);
-                enmyObj.transform.position = obj.transform.position;
-
-                ModuleStats stats = enmyObj.GetComponent<ModuleStats>();
+                enmyObj.transform.position = moduleValues[i].enemySpawns[e].transform.position;
             }
-
 
         }
     }
@@ -67,6 +67,15 @@ public class ModGenerator : MonoBehaviour
         {
 
         }
+    }
+
+    public void CreateFile(Vector2 position)
+    {
+
+        GameObject enmyObj = Instantiate(enemies[Random.Range(0, enemies.Length)]);
+        enmyObj.transform.position = position;
+
+
     }
 
     public void AddStatsToArray(ModuleStats sts, ref ModuleStats[] array)
