@@ -7552,6 +7552,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxFiles: 4
   actualFiles: 0
+  postDefeatCanvas: Menu
+  postWinCanvas: MainGame
   fileCounter: {fileID: 341805816}
   canvasManager: {fileID: 1915606917}
   winCanvasName: Victory
@@ -10982,17 +10984,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2649214766541980912, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725439066}
     - target: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
       propertyPath: m_Name
       value: Collectable (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14573,17 +14567,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2649214766541980912, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725439066}
     - target: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
       propertyPath: m_Name
       value: Collectable (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17291,6 +17277,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e456f0c81e686e4bad795c739210915, type: 3}
+--- !u!114 &1805407721 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7175532705911550065, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
+  m_PrefabInstance: {fileID: 1323109804585848835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef7f447a06e337a4b859fdaddf99a5de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1814938669
 GameObject:
   m_ObjectHideFlags: 0
@@ -18678,17 +18675,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2649214766541980912, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725439066}
     - target: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
       propertyPath: m_Name
       value: Collectable (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20302,9 +20291,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3357606444947188083, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
+      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357606444947188083, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
       propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 725439066}
+      objectReference: {fileID: 1805407721}
+    - target: {fileID: 3357606444947188083, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
+      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: VictoryCall
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357606444947188083, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
+      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Levl, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4754372660205834203, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -20716,10 +20717,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2649214766541980912, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725439066}
     - target: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
       propertyPath: m_Name
       value: Collectable

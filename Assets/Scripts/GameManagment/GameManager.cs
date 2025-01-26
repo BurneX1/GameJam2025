@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
     {
         if (sceneTransition) sceneTransition.SetTrigger("Start");
 
-        yield return new WaitForSecondsRealtime(1.5f);
+        yield return new WaitForSecondsRealtime(0);
         Debug.Log(sceneName);
         SceneManager.LoadScene(sceneName);
     }
@@ -80,7 +80,7 @@ public class GameManager : MonoBehaviour
         if (sceneTransition) sceneTransition.SetTrigger("Start");
 
 
-        yield return new WaitForSecondsRealtime(1.5f);
+        yield return new WaitForSecondsRealtime(0);
 
         Application.Quit();
     }

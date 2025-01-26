@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 public class LevelManager : MonoBehaviour
 {
     public int maxFiles;
     public int actualFiles;
     int displayedFiles;
+
+    public string postDefeatCanvas;
+    public string postWinCanvas;
+
     public TextMeshProUGUI fileCounter;
     public CanvasManager canvasManager;
 
@@ -63,6 +68,7 @@ public class LevelManager : MonoBehaviour
 
         canvasManager.ActiveCanv(defeatCanvasName);
         canvasManager.gameObject.SetActive(false);
+        StartCoroutine(WaitTime(5, () => { GameManager.manager.Change(postDefeatCanvas); }));
     }
 
     public void CheckDoorLock()
@@ -74,12 +80,20 @@ public class LevelManager : MonoBehaviour
 
     public void CheckVictory()
     {
-        if( canvasManager == null) return;
+        if (canvasManager == null) return;
 
         canvasManager.ActiveCanv(winCanvasName);
         canvasManager.gameObject.SetActive(false);
+
+        StartCoroutine(WaitTime(3, () => { GameManager.manager.Change(postWinCanvas); }));
     }
 
+    public IEnumerator WaitTime(float time,Action callback)
+    {
+        yield return new WaitForSecondsRealtime(time);
+
+        callback.Invoke();
+    }
 
 
 }

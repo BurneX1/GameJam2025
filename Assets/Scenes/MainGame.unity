@@ -3098,115 +3098,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &169182301
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 169182302}
-  - component: {fileID: 169182305}
-  - component: {fileID: 169182304}
-  - component: {fileID: 169182303}
-  m_Layer: 5
-  m_Name: DftTxt (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &169182302
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169182301}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 993958450}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -122.5}
-  m_SizeDelta: {x: -62.104004, y: 171.0597}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &169182303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169182301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 633acc0c78516a641a9cc83667bb4fd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  txt: {fileID: 169182304}
-  texts:
-  - "\xBFAcaso eres tan miserable que ni siquiera puedes disfrutar un poco de lo
-    que tienes? Lo unico que haces es trabajar"
-  - "\xA1Seguro lo que haces es para complacer al jefe,  no z@%|@"
-  - "Me pregunto si en realidad te preocupa tu maldito trabajo, \xBFporque no te
-    tomas un respiro y vienes con nostros al acabar de trabajar?"
-  - "Vaya, \xBFtanto te cuesta dejar de trabajar por un rato? \xBFes que ni siquiera
-    puedes tomarte un minuto respiro?"
-  - Te ves muy sexy con esta ropa el dia de hoy.
-  - Deberias usar mas trajes como este
-  - "Siempre me pregunto que haces despues del trabajo, deberiamos salir algun d\xEDa"
-  - "\xBFTu novio se pone celoso de que trabajes conmigo?"
-  - sabias que tengo influencias aqui, deberias ser mas amable conmigo
-  - si quieres avanzar en esta empresa deberias empezar a llevarte bien conmigo
-  - "No me gusta cuando te acercas tanto a otros compa\xF1eros"
---- !u!114 &169182304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169182301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: e0619443de44dc04fbe78d2c42e1051c, type: 3}
-    m_FontSize: 67
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 173
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Me pregunto si en realidad te preocupa tu maldito trabajo, \xBFporque
-    no te tomas un respiro y vienes con nostros al acabar de trabajar?"
---- !u!222 &169182305
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169182301}
-  m_CullTransparentMesh: 1
 --- !u!1 &181269099
 GameObject:
   m_ObjectHideFlags: 0
@@ -7742,26 +7633,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2881347710632423943, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881347710632423943, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881347710632423943, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881347710632423943, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: e0619443de44dc04fbe78d2c42e1051c, type: 3}
-    - target: {fileID: 3000000084353998025, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3591718105958390958, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
       propertyPath: m_Name
       value: Defeat
@@ -7850,36 +7721,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6401555502226005852, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_Color.a
-      value: 0.74509805
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401555502226005852, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401555502226005852, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401555502226005852, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763769707649031601, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8435422265393563674, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 85
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5607438652912964162, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 169182302}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
 --- !u!1 &397294748
@@ -8865,9 +8709,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e0619443de44dc04fbe78d2c42e1051c, type: 3}
+    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3160608483288277051, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 67
+      objectReference: {fileID: 0}
     - target: {fileID: 9113192135289214733, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
       propertyPath: m_Name
       value: Victory
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113192135289214733, guid: 2c40a7857b3a7664c89a4b27d6b276a5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12498,6 +12370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxFiles: 4
   actualFiles: 0
+  postDefeatCanvas: Menu
+  postWinCanvas: MainGame
   fileCounter: {fileID: 1483272135}
   canvasManager: {fileID: 1915606917}
   winCanvasName: Victory
@@ -16898,11 +16772,6 @@ SpriteRenderer:
 --- !u!1 &993958446 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3591718105958390958, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
-  m_PrefabInstance: {fileID: 380080135}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &993958450 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5607438652912964162, guid: 6a06b340af1f51a4ca082d5e4d6a81ab, type: 3}
   m_PrefabInstance: {fileID: 380080135}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &995530811
@@ -25606,8 +25475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53c86aee07bc61d4d8c1ba67e5eed753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
-  files: {fileID: 0}
+  levelManager: {fileID: 725439066}
+  files: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
   enemies:
   - {fileID: 7947096278608260555, guid: c2c946cac0f3dfc44a50ee8b3513e7cd, type: 3}
   - {fileID: 6551200510853785088, guid: a94eda105f02e8947ade75745fcde64e, type: 3}
