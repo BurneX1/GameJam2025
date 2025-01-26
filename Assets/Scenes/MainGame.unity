@@ -25061,6 +25061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  files: {fileID: 0}
   enemies:
   - {fileID: 7947096278608260555, guid: c2c946cac0f3dfc44a50ee8b3513e7cd, type: 3}
   - {fileID: 6551200510853785088, guid: a94eda105f02e8947ade75745fcde64e, type: 3}
@@ -35550,6 +35551,10 @@ PrefabInstance:
     - target: {fileID: 658276551720085283, guid: 614c5e7ca218bc0498136d0f35f210bc, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866773778006201295, guid: 614c5e7ca218bc0498136d0f35f210bc, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 11.3
       objectReference: {fileID: 0}
     - target: {fileID: 7038561455140323095, guid: 614c5e7ca218bc0498136d0f35f210bc, type: 3}
       propertyPath: m_LocalPosition.x
