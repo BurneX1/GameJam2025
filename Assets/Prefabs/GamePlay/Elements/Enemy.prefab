@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 9136190891105518101}
   - component: {fileID: 3943331436270202332}
   - component: {fileID: 6794574305618959650}
+  - component: {fileID: 5704395062846544746}
   m_Layer: 3
   m_Name: Enemy
   m_TagString: Enemy
@@ -212,9 +213,9 @@ MonoBehaviour:
   eventList:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: DefeatGame
+      - m_Target: {fileID: 5704395062846544746}
+        m_TargetAssemblyTypeName: Levl, Assembly-CSharp
+        m_MethodName: DefeatCall
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -326,3 +327,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.29037708}
   serializedVersion: 2
   m_Radius: 0.23504
+--- !u!114 &5704395062846544746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947096278608260555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef7f447a06e337a4b859fdaddf99a5de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

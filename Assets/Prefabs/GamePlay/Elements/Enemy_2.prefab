@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 6646198820081989653}
   - component: {fileID: 5071875334243843968}
   - component: {fileID: 2810218311871003056}
+  - component: {fileID: 1266235730449120398}
   m_Layer: 3
   m_Name: Enemy_2
   m_TagString: Enemy
@@ -34,7 +35,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6551200510853785088}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.4999995, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -212,9 +213,9 @@ MonoBehaviour:
   eventList:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: DefeatGame
+      - m_Target: {fileID: 1266235730449120398}
+        m_TargetAssemblyTypeName: Levl, Assembly-CSharp
+        m_MethodName: DefeatCall
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -326,3 +327,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.29037708}
   serializedVersion: 2
   m_Radius: 0.23504
+--- !u!114 &1266235730449120398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551200510853785088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef7f447a06e337a4b859fdaddf99a5de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

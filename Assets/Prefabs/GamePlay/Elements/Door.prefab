@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8125646651930148435}
   - component: {fileID: 3357606444947188083}
   - component: {fileID: 7418281308812192992}
+  - component: {fileID: 7175532705911550065}
   m_Layer: 0
   m_Name: PassDor
   m_TagString: Collectable
@@ -123,9 +124,9 @@ MonoBehaviour:
   eventList:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 7175532705911550065}
+        m_TargetAssemblyTypeName: Levl, Assembly-CSharp
+        m_MethodName: VictoryCall
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -176,9 +177,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1503571778, guid: d89226f0bc1877b46890d4f1baa1cf80, type: 3}
-  m_Color: {r: 0.8584906, g: 0.73720276, b: 0.13363297, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -188,6 +189,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7175532705911550065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460119286213337117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef7f447a06e337a4b859fdaddf99a5de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5337655039332410856
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,7 +467,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1503571778, guid: d89226f0bc1877b46890d4f1baa1cf80, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

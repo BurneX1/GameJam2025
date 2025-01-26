@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class ModGenerator : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class ModGenerator : MonoBehaviour
         }
 
         GenerateEnemies();
+        GenerateFiles();
     }
 
     public void GenerateEnemies()
@@ -66,18 +68,17 @@ public class ModGenerator : MonoBehaviour
 
             while(instantiated==true)
             {
+                if (moduleValues[value].fileSpawns.Length <= 0) moduleValues[value].fileSpawned = true;
+
                 if (moduleValues[value].fileSpawned) value++;
                 if (value > moduleValues.Length - 1) value = 1;
-
             }
 
-            if (levelManager.maxFiles > 7)
-            {
+            CreateFile(moduleValues[value].fileSpawns[Random.Range(0, moduleValues[value].fileSpawns.Length - 1)].transform.position);
 
-            }
-            else
+            if (levelManager.maxFiles < 7)
             {
-                
+                moduleValues[value].fileSpawned = true;
             }
         }
 

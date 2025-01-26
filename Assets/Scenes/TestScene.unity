@@ -14576,25 +14576,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3357606444947188083, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
-      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725439066}
-    - target: {fileID: 4754372660205834203, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5337655039332410856, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
       propertyPath: m_Name
       value: Door
-      objectReference: {fileID: 0}
-    - target: {fileID: 6640507118356004137, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7418281308812192992, guid: af7d5624b3de69a4a8d62b8bca74fd62, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14969,10 +14953,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_2
       objectReference: {fileID: 0}
-    - target: {fileID: 8450149331780227900, guid: a94eda105f02e8947ade75745fcde64e, type: 3}
-      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725439066}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15351,14 +15331,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2217699277665290827, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2649214766541980912, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
-      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725439066}
     - target: {fileID: 6476819934188363307, guid: 16d2f8ee38d706345aa306719349326b, type: 3}
       propertyPath: m_Name
       value: Collectable
@@ -15547,10 +15519,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1820495584}
     m_Modifications:
-    - target: {fileID: 5977713951440691930, guid: c2c946cac0f3dfc44a50ee8b3513e7cd, type: 3}
-      propertyPath: eventList.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 725439066}
     - target: {fileID: 7947096278608260555, guid: c2c946cac0f3dfc44a50ee8b3513e7cd, type: 3}
       propertyPath: m_Name
       value: Enemy

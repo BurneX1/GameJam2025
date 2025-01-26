@@ -15,9 +15,15 @@ public class LevelManager : MonoBehaviour
     public string defeatCanvasName;
 
     public Door levelGoal;
+    public static LevelManager instance;
+    private void Awake()
+    {
+        instance = this;
+    }
+
     private void OnEnable()
     {
-
+        
     }
     // Start is called before the first frame update
     void Start()
