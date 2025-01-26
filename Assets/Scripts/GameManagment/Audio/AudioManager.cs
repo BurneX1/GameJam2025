@@ -21,8 +21,8 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
 
-        musicMixer.audioMixer.SetFloat("MusicVol", (Mathf.Log10(SaveSystem.data.mscVol) * 20));
-        soundMixer.audioMixer.SetFloat("SoundVol", (Mathf.Log10(SaveSystem.data.sndVol) * 20));
+        //musicMixer.audioMixer.SetFloat("MusicVol", (Mathf.Log10(SaveSystem.data.mscVol) * 20));
+        //soundMixer.audioMixer.SetFloat("SoundVol", (Mathf.Log10(SaveSystem.data.sndVol) * 20));
         foreach (Sounds sound in sounds)
         {
             sound.audioSource = gameObject.AddComponent<AudioSource>();
@@ -46,9 +46,9 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
 
-        SetSoundVolume(SaveSystem.data.sndVol);
+        //SetSoundVolume(SaveSystem.data.sndVol);
 
-        SetMusicVolume(SaveSystem.data.mscVol);
+        //SetMusicVolume(SaveSystem.data.mscVol);
     }
     public void Play(string name, Sounds[] arrayType)
     {
@@ -124,7 +124,7 @@ public class AudioManager : MonoBehaviour
             }
             Instance.musicMixer.audioMixer.SetFloat("MusicVol", (Mathf.Log10(volumeVal) * 20));
             Debug.Log("music value settet to: " + volumeVal);
-            SaveSystem.data.mscVol = volumeVal;
+            //SaveSystem.data.mscVol = volumeVal;
 
 
         }
@@ -146,7 +146,7 @@ public class AudioManager : MonoBehaviour
             }
             Instance.soundMixer.audioMixer.SetFloat("SoundVol", (Mathf.Log10(volumeVal) * 20));
             Debug.Log("sound value settet to: " + volumeVal);
-            SaveSystem.data.sndVol = volumeVal;
+            //SaveSystem.data.sndVol = volumeVal;
 
         }
 
