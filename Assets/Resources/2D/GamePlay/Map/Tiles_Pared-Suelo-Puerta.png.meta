@@ -857,6 +857,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tiles_Pared-Suelo-Puerta_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 49
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9364491b994b84fb1ba8250fe66861
+      internalID: 1503571778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -897,6 +918,7 @@ TextureImporter:
       Tiles_Pared-Suelo-Puerta_32: -1809936385
       Tiles_Pared-Suelo-Puerta_33: -2143868531
       Tiles_Pared-Suelo-Puerta_34: 891520295
+      Tiles_Pared-Suelo-Puerta_35: 1503571778
       Tiles_Pared-Suelo-Puerta_4: -517530354
       Tiles_Pared-Suelo-Puerta_5: 564336650
       Tiles_Pared-Suelo-Puerta_6: -727357283
