@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d89226f0bc1877b46890d4f1baa1cf80
+guid: 86717e12713ca5443910bf88e58092a1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,736 +123,568 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_0
+      name: MujerProta - 16x19_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 57
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f299e7dce517df645a073e93edd02999
-      internalID: -604160686
+      spriteID: 57e3fe410761cf64da87ec885a76d8bf
+      internalID: -1429865467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_1
+      name: MujerProta - 16x19_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 96
+        y: 57
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caf489375a477af42bea0b623c8976c7
-      internalID: -2134490808
+      spriteID: c246b0a0ae03ca34ab102e25451f201d
+      internalID: 986707008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_2
+      name: MujerProta - 16x19_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 57
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65beaca034645e741b1221fd8c2e9bcc
-      internalID: 1389951072
+      spriteID: 5d59e122ac89a5847a9326bbc8151c6d
+      internalID: -1024964844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5db34936ec36704b8958a847690b7f7
-      internalID: 493633457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6134b60e66a80a0408a0d4fb6b74bea1
-      internalID: -517530354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_5
+      name: MujerProta - 16x19_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
+        y: 38
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2ff429ee521c44ba01b034f8da72f7
-      internalID: 564336650
+      spriteID: 00e21985a99b8e242911a55b15e100dc
+      internalID: 836238609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_6
+      name: MujerProta - 16x19_4
       rect:
         serializedVersion: 2
         x: 16
-        y: 80
+        y: 38
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf103eefbd85b094f9318ca4299ea5ea
-      internalID: -727357283
+      spriteID: f850f6943edd99f48bb98dde00fdd4d5
+      internalID: -1105161416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_7
+      name: MujerProta - 16x19_5
       rect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 38
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83165b387fed23f4f9c9547763fa1e35
-      internalID: 1142412922
+      spriteID: 6e3bedacd00924647ba9dece60be98d1
+      internalID: 1114964406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_8
+      name: MujerProta - 16x19_6
       rect:
         serializedVersion: 2
         x: 48
-        y: 80
+        y: 38
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 186c25321f54640459401cf056aa37aa
-      internalID: -1609661088
+      spriteID: 965c980aa7cfc1d4b858a4b7ff3a04ea
+      internalID: -1336377033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_9
+      name: MujerProta - 16x19_7
       rect:
         serializedVersion: 2
         x: 64
-        y: 80
+        y: 38
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b699d1a3de4fa7940b079b3857e5c254
-      internalID: 1885762263
+      spriteID: 61a0fb11c242bbd45aece073ef2babef
+      internalID: 580869405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_10
+      name: MujerProta - 16x19_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 38
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4a80a3670cd0241acbbe8552d0067e
+      internalID: -1100264955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MujerProta - 16x19_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 38
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20457d76aeac6a847b5d532b94a7b50e
+      internalID: -353926382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MujerProta - 16x19_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 38
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89b3ac658da82c4a8d06906d411f116
+      internalID: -2046120112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MujerProta - 16x19_11
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 19
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7c5fc719903d5b4ba3a492cdd4ea1f7
-      internalID: -1804549339
+      spriteID: 6967cc8e270d5a04fb166bbd25458d85
+      internalID: -1593016907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_11
+      name: MujerProta - 16x19_12
       rect:
         serializedVersion: 2
         x: 16
-        y: 64
+        y: 19
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1066c669de81db54492f5602ae46d9d5
-      internalID: 166336526
+      spriteID: 68c2864efc2578244ad085c49458f48a
+      internalID: 1159384028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_12
+      name: MujerProta - 16x19_13
       rect:
         serializedVersion: 2
         x: 32
-        y: 65
+        y: 19
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e440b24c3f177064995e01e0eb490bd5
-      internalID: 559513030
+      spriteID: 9252228b66695b34dbd9abf27536e6a3
+      internalID: -245321675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_13
+      name: MujerProta - 16x19_14
       rect:
         serializedVersion: 2
         x: 48
-        y: 64
+        y: 19
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a80943cc0f677d94b9e2c1ae9f701e65
-      internalID: -454140188
+      spriteID: 4b42fa9e1b6420f469e58db883501d6e
+      internalID: 310141539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_14
+      name: MujerProta - 16x19_15
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
+        y: 19
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e859bed4c465ab64eb9ea75e97e979bf
-      internalID: -703646619
+      spriteID: d1d3331c39a51ec44936e7b7ef4463ac
+      internalID: -76380800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_15
+      name: MujerProta - 16x19_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 80
+        y: 19
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c0a03c895173a4d8145f514564a0fa
-      internalID: -2132259654
+      spriteID: 56999369e49456a4a83099237535ac32
+      internalID: 1375549378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_16
+      name: MujerProta - 16x19_17
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
+        x: 96
+        y: 19
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dac8b9628b570354581b104e5b6f5b75
-      internalID: 1379835757
+      spriteID: ab2219a550e71e148895bca2254f72a6
+      internalID: -1470422539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_17
+      name: MujerProta - 16x19_18
       rect:
         serializedVersion: 2
-        x: 32
-        y: 49
+        x: 112
+        y: 19
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd68b5fff17e64489dfc6861d4985cd
-      internalID: -629577703
+      spriteID: 066b5a4524583304c85286a1d8cfb7d6
+      internalID: -2001633869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_18
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f32e52d87b0c0c43ab09c8c06a10980
-      internalID: -926068881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_19
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abff3e7f712788241b5704007d3c506a
-      internalID: 1758930695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_20
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89e9a1e50dfb50c43a716909f8474774
-      internalID: -1011050272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_21
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abd87a126cd878c45bd8e19282cd22f7
-      internalID: 1391325941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_22
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83543953157000c42aa804f83fb5d164
-      internalID: 2020915352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_23
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 351583ba56ec9eb468acf8a71f956941
-      internalID: -672605235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_24
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f623a2955d62a0d4bb58463a5d3a0d06
-      internalID: 49281620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_25
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a9dd7a878f6be843a4b2562fa4bfaaf
-      internalID: -1063367727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_26
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2821863ca8dd9cd4aa68c2f00c41c47f
-      internalID: -2091003406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_27
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3003704601ca9744b989b0b42472956
-      internalID: -2060157408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_28
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99e3ea06f2a14b64db4078d2f1ff2839
-      internalID: -377737780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_29
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 740a5c071138de44eae11d7ccc9a9b7f
-      internalID: 46767088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_30
+      name: MujerProta - 16x19_19
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b922e4d796296be44b2edbaba4401dc4
-      internalID: -2020491064
+      spriteID: 7ea05c3a7c81e884e9f0e822e2ccdc6d
+      internalID: 1738582020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_31
+      name: MujerProta - 16x19_20
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29131981e4e7ea545b34adafc84a1c07
-      internalID: -503826975
+      spriteID: 9e3fc1c74f737cf4389bc5ef187f5525
+      internalID: -226158633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_32
+      name: MujerProta - 16x19_21
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75d1a8241fae22847bb4b525ed2af1cf
-      internalID: -1809936385
+      spriteID: 66c5a9ba9fc5ad54d95959508ee238c3
+      internalID: -1378529898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_33
+      name: MujerProta - 16x19_22
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ea68b41d59023d4293bc5ecc8abcc75
-      internalID: -2143868531
+      spriteID: 1779ce220411b81478661126eb16b907
+      internalID: 248802936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_34
+      name: MujerProta - 16x19_23
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
-        height: 16
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c60b55d96421eb4aa91ee8d419f9373
-      internalID: 891520295
+      spriteID: a02ee0bd3717cd74399a31ec76f90ade
+      internalID: -62716879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MujerProta - 16x19_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24377824e3e781e41bf743bbe3840d78
+      internalID: 485920991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MujerProta - 16x19_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7da60ca79e4d543bf895db5d5d81a0
+      internalID: 1657161340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MujerProta - 16x19_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a418242d46dc74f8b7fd0c43590b21
+      internalID: -335911537
       vertices: []
       indices: 
       edges: []
@@ -868,41 +700,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tiles_Pared-Suelo-Puerta_0: -604160686
-      Tiles_Pared-Suelo-Puerta_1: -2134490808
-      Tiles_Pared-Suelo-Puerta_10: -1804549339
-      Tiles_Pared-Suelo-Puerta_11: 166336526
-      Tiles_Pared-Suelo-Puerta_12: 559513030
-      Tiles_Pared-Suelo-Puerta_13: -454140188
-      Tiles_Pared-Suelo-Puerta_14: -703646619
-      Tiles_Pared-Suelo-Puerta_15: -2132259654
-      Tiles_Pared-Suelo-Puerta_16: 1379835757
-      Tiles_Pared-Suelo-Puerta_17: -629577703
-      Tiles_Pared-Suelo-Puerta_18: -926068881
-      Tiles_Pared-Suelo-Puerta_19: 1758930695
-      Tiles_Pared-Suelo-Puerta_2: 1389951072
-      Tiles_Pared-Suelo-Puerta_20: -1011050272
-      Tiles_Pared-Suelo-Puerta_21: 1391325941
-      Tiles_Pared-Suelo-Puerta_22: 2020915352
-      Tiles_Pared-Suelo-Puerta_23: -672605235
-      Tiles_Pared-Suelo-Puerta_24: 49281620
-      Tiles_Pared-Suelo-Puerta_25: -1063367727
-      Tiles_Pared-Suelo-Puerta_26: -2091003406
-      Tiles_Pared-Suelo-Puerta_27: -2060157408
-      Tiles_Pared-Suelo-Puerta_28: -377737780
-      Tiles_Pared-Suelo-Puerta_29: 46767088
-      Tiles_Pared-Suelo-Puerta_3: 493633457
-      Tiles_Pared-Suelo-Puerta_30: -2020491064
-      Tiles_Pared-Suelo-Puerta_31: -503826975
-      Tiles_Pared-Suelo-Puerta_32: -1809936385
-      Tiles_Pared-Suelo-Puerta_33: -2143868531
-      Tiles_Pared-Suelo-Puerta_34: 891520295
-      Tiles_Pared-Suelo-Puerta_4: -517530354
-      Tiles_Pared-Suelo-Puerta_5: 564336650
-      Tiles_Pared-Suelo-Puerta_6: -727357283
-      Tiles_Pared-Suelo-Puerta_7: 1142412922
-      Tiles_Pared-Suelo-Puerta_8: -1609661088
-      Tiles_Pared-Suelo-Puerta_9: 1885762263
+      MujerProta - 16x19_0: -1429865467
+      MujerProta - 16x19_1: 986707008
+      MujerProta - 16x19_10: -2046120112
+      MujerProta - 16x19_11: -1593016907
+      MujerProta - 16x19_12: 1159384028
+      MujerProta - 16x19_13: -245321675
+      MujerProta - 16x19_14: 310141539
+      MujerProta - 16x19_15: -76380800
+      MujerProta - 16x19_16: 1375549378
+      MujerProta - 16x19_17: -1470422539
+      MujerProta - 16x19_18: -2001633869
+      MujerProta - 16x19_19: 1738582020
+      MujerProta - 16x19_2: -1024964844
+      MujerProta - 16x19_20: -226158633
+      MujerProta - 16x19_21: -1378529898
+      MujerProta - 16x19_22: 248802936
+      MujerProta - 16x19_23: -62716879
+      MujerProta - 16x19_24: 485920991
+      MujerProta - 16x19_25: 1657161340
+      MujerProta - 16x19_26: -335911537
+      MujerProta - 16x19_3: 836238609
+      MujerProta - 16x19_4: -1105161416
+      MujerProta - 16x19_5: 1114964406
+      MujerProta - 16x19_6: -1336377033
+      MujerProta - 16x19_7: 580869405
+      MujerProta - 16x19_8: -1100264955
+      MujerProta - 16x19_9: -353926382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

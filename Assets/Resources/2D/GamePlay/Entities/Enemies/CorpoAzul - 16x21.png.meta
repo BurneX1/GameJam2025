@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d89226f0bc1877b46890d4f1baa1cf80
+guid: 8105f1b0a0b5c6548a51d48f71e8a204
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,736 +123,568 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_0
+      name: CorpoAzul - 16x21_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 63
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f299e7dce517df645a073e93edd02999
-      internalID: -604160686
+      spriteID: 2280983fff730d042889ecfd82bc7727
+      internalID: 1497116175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_1
+      name: CorpoAzul - 16x21_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 96
+        y: 63
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caf489375a477af42bea0b623c8976c7
-      internalID: -2134490808
+      spriteID: 936b8bb0a2107f54f99c13572e73b70e
+      internalID: -1031630706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_2
+      name: CorpoAzul - 16x21_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 63
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65beaca034645e741b1221fd8c2e9bcc
-      internalID: 1389951072
+      spriteID: 42112f32c87e39241a9f96831f61663a
+      internalID: 57026676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5db34936ec36704b8958a847690b7f7
-      internalID: 493633457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6134b60e66a80a0408a0d4fb6b74bea1
-      internalID: -517530354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_5
+      name: CorpoAzul - 16x21_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2ff429ee521c44ba01b034f8da72f7
-      internalID: 564336650
+      spriteID: a44b7f7976244e84ea61c5acd28257b7
+      internalID: -1272126546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_6
+      name: CorpoAzul - 16x21_4
       rect:
         serializedVersion: 2
         x: 16
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf103eefbd85b094f9318ca4299ea5ea
-      internalID: -727357283
+      spriteID: 024c8ee46dac1a64a9dc584a415d7840
+      internalID: 1085852160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_7
+      name: CorpoAzul - 16x21_5
       rect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83165b387fed23f4f9c9547763fa1e35
-      internalID: 1142412922
+      spriteID: 5fb06f1f8449f9d4f89522a1f4eb3b8a
+      internalID: 2099987245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_8
+      name: CorpoAzul - 16x21_6
       rect:
         serializedVersion: 2
         x: 48
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 186c25321f54640459401cf056aa37aa
-      internalID: -1609661088
+      spriteID: 880c256dd66566348b3af1105865249a
+      internalID: 658160032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_9
+      name: CorpoAzul - 16x21_7
       rect:
         serializedVersion: 2
         x: 64
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b699d1a3de4fa7940b079b3857e5c254
-      internalID: 1885762263
+      spriteID: caea9129e1504424aae4d16cf544cdce
+      internalID: -1707717361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_10
+      name: CorpoAzul - 16x21_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 42
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e091d1bc2ff88e742aa5b657d1070518
+      internalID: -260416573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoAzul - 16x21_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 42
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c770a4b1bc13ba4797d8f4d55e0bf45
+      internalID: 136298080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoAzul - 16x21_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 42
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a0ee23438d6e349ae6c92a3d8de596
+      internalID: 1848498480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoAzul - 16x21_11
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7c5fc719903d5b4ba3a492cdd4ea1f7
-      internalID: -1804549339
+      spriteID: 9691e65c5cb56eb4380666fe9431cbfb
+      internalID: 2097670142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_11
+      name: CorpoAzul - 16x21_12
       rect:
         serializedVersion: 2
         x: 16
-        y: 64
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1066c669de81db54492f5602ae46d9d5
-      internalID: 166336526
+      spriteID: 041991b79dc2121418aec65b5f2e1a99
+      internalID: 1565438977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_12
+      name: CorpoAzul - 16x21_13
       rect:
         serializedVersion: 2
         x: 32
-        y: 65
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e440b24c3f177064995e01e0eb490bd5
-      internalID: 559513030
+      spriteID: b8ce5ade93826ff4987f38966dce562e
+      internalID: 1924341021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_13
+      name: CorpoAzul - 16x21_14
       rect:
         serializedVersion: 2
         x: 48
-        y: 64
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a80943cc0f677d94b9e2c1ae9f701e65
-      internalID: -454140188
+      spriteID: a82c52902a1195040baffcbfe7b7af18
+      internalID: -1949546194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_14
+      name: CorpoAzul - 16x21_15
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e859bed4c465ab64eb9ea75e97e979bf
-      internalID: -703646619
+      spriteID: 20bf176c992a4ef468cded6d2aafc192
+      internalID: -484901361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_15
+      name: CorpoAzul - 16x21_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 80
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c0a03c895173a4d8145f514564a0fa
-      internalID: -2132259654
+      spriteID: 8966a06a3ce65714b9c27fc9a18af996
+      internalID: 1283551438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_16
+      name: CorpoAzul - 16x21_17
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
+        x: 96
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dac8b9628b570354581b104e5b6f5b75
-      internalID: 1379835757
+      spriteID: 5cd0b4677cde59b43b2412e05cbe7c5a
+      internalID: 2005541980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_17
+      name: CorpoAzul - 16x21_18
       rect:
         serializedVersion: 2
-        x: 32
-        y: 49
+        x: 112
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd68b5fff17e64489dfc6861d4985cd
-      internalID: -629577703
+      spriteID: 3918d9ee5ebaf39499cc6819c1779c12
+      internalID: 338052939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_18
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f32e52d87b0c0c43ab09c8c06a10980
-      internalID: -926068881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_19
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abff3e7f712788241b5704007d3c506a
-      internalID: 1758930695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_20
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89e9a1e50dfb50c43a716909f8474774
-      internalID: -1011050272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_21
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abd87a126cd878c45bd8e19282cd22f7
-      internalID: 1391325941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_22
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83543953157000c42aa804f83fb5d164
-      internalID: 2020915352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_23
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 351583ba56ec9eb468acf8a71f956941
-      internalID: -672605235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_24
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f623a2955d62a0d4bb58463a5d3a0d06
-      internalID: 49281620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_25
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a9dd7a878f6be843a4b2562fa4bfaaf
-      internalID: -1063367727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_26
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2821863ca8dd9cd4aa68c2f00c41c47f
-      internalID: -2091003406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_27
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3003704601ca9744b989b0b42472956
-      internalID: -2060157408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_28
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99e3ea06f2a14b64db4078d2f1ff2839
-      internalID: -377737780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_29
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 740a5c071138de44eae11d7ccc9a9b7f
-      internalID: 46767088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_30
+      name: CorpoAzul - 16x21_19
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b922e4d796296be44b2edbaba4401dc4
-      internalID: -2020491064
+      spriteID: 79bb348a15ec6dd4c9388b16fea48842
+      internalID: 1143162425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_31
+      name: CorpoAzul - 16x21_20
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29131981e4e7ea545b34adafc84a1c07
-      internalID: -503826975
+      spriteID: 1dea49dd52a858a4795dc889341cc9ea
+      internalID: -1334636352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_32
+      name: CorpoAzul - 16x21_21
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75d1a8241fae22847bb4b525ed2af1cf
-      internalID: -1809936385
+      spriteID: a5729fdf608ade5408d3ac72f813e410
+      internalID: -1864309317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_33
+      name: CorpoAzul - 16x21_22
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ea68b41d59023d4293bc5ecc8abcc75
-      internalID: -2143868531
+      spriteID: cff46081ac89b8741b9a582ad8ad949c
+      internalID: 1389221118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_34
+      name: CorpoAzul - 16x21_23
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c60b55d96421eb4aa91ee8d419f9373
-      internalID: 891520295
+      spriteID: 522f4993dc96b3647a0efadc6dadc477
+      internalID: 1720327945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoAzul - 16x21_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b96cdad1599074d890003b95fa0bb7
+      internalID: 1084546247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoAzul - 16x21_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8997a22f25ffc41a1a8026ca3e4d2a
+      internalID: -1885101020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoAzul - 16x21_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5347ec3d5d2774286b5850871e5df8
+      internalID: 1100776726
       vertices: []
       indices: 
       edges: []
@@ -868,41 +700,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tiles_Pared-Suelo-Puerta_0: -604160686
-      Tiles_Pared-Suelo-Puerta_1: -2134490808
-      Tiles_Pared-Suelo-Puerta_10: -1804549339
-      Tiles_Pared-Suelo-Puerta_11: 166336526
-      Tiles_Pared-Suelo-Puerta_12: 559513030
-      Tiles_Pared-Suelo-Puerta_13: -454140188
-      Tiles_Pared-Suelo-Puerta_14: -703646619
-      Tiles_Pared-Suelo-Puerta_15: -2132259654
-      Tiles_Pared-Suelo-Puerta_16: 1379835757
-      Tiles_Pared-Suelo-Puerta_17: -629577703
-      Tiles_Pared-Suelo-Puerta_18: -926068881
-      Tiles_Pared-Suelo-Puerta_19: 1758930695
-      Tiles_Pared-Suelo-Puerta_2: 1389951072
-      Tiles_Pared-Suelo-Puerta_20: -1011050272
-      Tiles_Pared-Suelo-Puerta_21: 1391325941
-      Tiles_Pared-Suelo-Puerta_22: 2020915352
-      Tiles_Pared-Suelo-Puerta_23: -672605235
-      Tiles_Pared-Suelo-Puerta_24: 49281620
-      Tiles_Pared-Suelo-Puerta_25: -1063367727
-      Tiles_Pared-Suelo-Puerta_26: -2091003406
-      Tiles_Pared-Suelo-Puerta_27: -2060157408
-      Tiles_Pared-Suelo-Puerta_28: -377737780
-      Tiles_Pared-Suelo-Puerta_29: 46767088
-      Tiles_Pared-Suelo-Puerta_3: 493633457
-      Tiles_Pared-Suelo-Puerta_30: -2020491064
-      Tiles_Pared-Suelo-Puerta_31: -503826975
-      Tiles_Pared-Suelo-Puerta_32: -1809936385
-      Tiles_Pared-Suelo-Puerta_33: -2143868531
-      Tiles_Pared-Suelo-Puerta_34: 891520295
-      Tiles_Pared-Suelo-Puerta_4: -517530354
-      Tiles_Pared-Suelo-Puerta_5: 564336650
-      Tiles_Pared-Suelo-Puerta_6: -727357283
-      Tiles_Pared-Suelo-Puerta_7: 1142412922
-      Tiles_Pared-Suelo-Puerta_8: -1609661088
-      Tiles_Pared-Suelo-Puerta_9: 1885762263
+      CorpoAzul - 16x21_0: 1497116175
+      CorpoAzul - 16x21_1: -1031630706
+      CorpoAzul - 16x21_10: 1848498480
+      CorpoAzul - 16x21_11: 2097670142
+      CorpoAzul - 16x21_12: 1565438977
+      CorpoAzul - 16x21_13: 1924341021
+      CorpoAzul - 16x21_14: -1949546194
+      CorpoAzul - 16x21_15: -484901361
+      CorpoAzul - 16x21_16: 1283551438
+      CorpoAzul - 16x21_17: 2005541980
+      CorpoAzul - 16x21_18: 338052939
+      CorpoAzul - 16x21_19: 1143162425
+      CorpoAzul - 16x21_2: 57026676
+      CorpoAzul - 16x21_20: -1334636352
+      CorpoAzul - 16x21_21: -1864309317
+      CorpoAzul - 16x21_22: 1389221118
+      CorpoAzul - 16x21_23: 1720327945
+      CorpoAzul - 16x21_24: 1084546247
+      CorpoAzul - 16x21_25: -1885101020
+      CorpoAzul - 16x21_26: 1100776726
+      CorpoAzul - 16x21_3: -1272126546
+      CorpoAzul - 16x21_4: 1085852160
+      CorpoAzul - 16x21_5: 2099987245
+      CorpoAzul - 16x21_6: 658160032
+      CorpoAzul - 16x21_7: -1707717361
+      CorpoAzul - 16x21_8: -260416573
+      CorpoAzul - 16x21_9: 136298080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

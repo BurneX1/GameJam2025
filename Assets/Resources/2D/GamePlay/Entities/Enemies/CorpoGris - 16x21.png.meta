@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d89226f0bc1877b46890d4f1baa1cf80
+guid: 6fe76a7e45ea62a4d9ef220c4572e0bb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,736 +123,568 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_0
+      name: CorpoGris - 16x21_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 63
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f299e7dce517df645a073e93edd02999
-      internalID: -604160686
+      spriteID: 2817e6980e61c71488ed52c689d0d260
+      internalID: 1895488234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_1
+      name: CorpoGris - 16x21_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 96
+        y: 63
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caf489375a477af42bea0b623c8976c7
-      internalID: -2134490808
+      spriteID: 4fdf576e115d21545934a98e7400019b
+      internalID: 85762515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_2
+      name: CorpoGris - 16x21_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 63
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65beaca034645e741b1221fd8c2e9bcc
-      internalID: 1389951072
+      spriteID: 1868d699b0357084f9fc1b2cc48e429d
+      internalID: 761179473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5db34936ec36704b8958a847690b7f7
-      internalID: 493633457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6134b60e66a80a0408a0d4fb6b74bea1
-      internalID: -517530354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_5
+      name: CorpoGris - 16x21_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2ff429ee521c44ba01b034f8da72f7
-      internalID: 564336650
+      spriteID: 7435de2f76dfbc84aaa7cedaeaabecab
+      internalID: -149912576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_6
+      name: CorpoGris - 16x21_4
       rect:
         serializedVersion: 2
         x: 16
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf103eefbd85b094f9318ca4299ea5ea
-      internalID: -727357283
+      spriteID: 32b024a5faca8ae489ea16440fe8d7ad
+      internalID: 2087839968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_7
+      name: CorpoGris - 16x21_5
       rect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83165b387fed23f4f9c9547763fa1e35
-      internalID: 1142412922
+      spriteID: ee5308adc5b3cfa479df20b79504b7cc
+      internalID: -1570372216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_8
+      name: CorpoGris - 16x21_6
       rect:
         serializedVersion: 2
         x: 48
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 186c25321f54640459401cf056aa37aa
-      internalID: -1609661088
+      spriteID: 8a1363b606cd48c4990874f40bded991
+      internalID: -2126942163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_9
+      name: CorpoGris - 16x21_7
       rect:
         serializedVersion: 2
         x: 64
-        y: 80
+        y: 42
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b699d1a3de4fa7940b079b3857e5c254
-      internalID: 1885762263
+      spriteID: 5e470c8c3f351624ca47bb44c1ed8de9
+      internalID: -1154909102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_10
+      name: CorpoGris - 16x21_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 42
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4300d65c1992543a1f44617609b9e1
+      internalID: -1488339713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoGris - 16x21_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 42
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7eca10e8eadb548a24201dc1b38d52
+      internalID: 62390393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoGris - 16x21_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 42
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239dac8964f8f6b4aad6ad7bfdcc08e6
+      internalID: 840333729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoGris - 16x21_11
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7c5fc719903d5b4ba3a492cdd4ea1f7
-      internalID: -1804549339
+      spriteID: bdf299987335ce641be6c0afa9de894e
+      internalID: 668715775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_11
+      name: CorpoGris - 16x21_12
       rect:
         serializedVersion: 2
         x: 16
-        y: 64
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1066c669de81db54492f5602ae46d9d5
-      internalID: 166336526
+      spriteID: eb25bfce7fa148e4da666da52a23534e
+      internalID: -2006221358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_12
+      name: CorpoGris - 16x21_13
       rect:
         serializedVersion: 2
         x: 32
-        y: 65
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e440b24c3f177064995e01e0eb490bd5
-      internalID: 559513030
+      spriteID: 12360f24ef879bd449986288c6c1ba9f
+      internalID: 1127651499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_13
+      name: CorpoGris - 16x21_14
       rect:
         serializedVersion: 2
         x: 48
-        y: 64
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a80943cc0f677d94b9e2c1ae9f701e65
-      internalID: -454140188
+      spriteID: 23c3c71390176764f93446acd72fd07c
+      internalID: -1436770523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_14
+      name: CorpoGris - 16x21_15
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e859bed4c465ab64eb9ea75e97e979bf
-      internalID: -703646619
+      spriteID: 439b181b7005a764db858be3a71c5ed1
+      internalID: 1979514696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_15
+      name: CorpoGris - 16x21_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 80
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c0a03c895173a4d8145f514564a0fa
-      internalID: -2132259654
+      spriteID: 5c03f86063f691b47ba6c8b6f722424b
+      internalID: 1902435635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_16
+      name: CorpoGris - 16x21_17
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
+        x: 96
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dac8b9628b570354581b104e5b6f5b75
-      internalID: 1379835757
+      spriteID: 75d69c2b7c455174486b624248e59c4c
+      internalID: 1945219292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_17
+      name: CorpoGris - 16x21_18
       rect:
         serializedVersion: 2
-        x: 32
-        y: 49
+        x: 112
+        y: 21
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd68b5fff17e64489dfc6861d4985cd
-      internalID: -629577703
+      spriteID: 319decfbbde3d05428f8213bb5f67133
+      internalID: 988047997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_18
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f32e52d87b0c0c43ab09c8c06a10980
-      internalID: -926068881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_19
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abff3e7f712788241b5704007d3c506a
-      internalID: 1758930695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_20
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89e9a1e50dfb50c43a716909f8474774
-      internalID: -1011050272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_21
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abd87a126cd878c45bd8e19282cd22f7
-      internalID: 1391325941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_22
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83543953157000c42aa804f83fb5d164
-      internalID: 2020915352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_23
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 351583ba56ec9eb468acf8a71f956941
-      internalID: -672605235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_24
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f623a2955d62a0d4bb58463a5d3a0d06
-      internalID: 49281620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_25
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a9dd7a878f6be843a4b2562fa4bfaaf
-      internalID: -1063367727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_26
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2821863ca8dd9cd4aa68c2f00c41c47f
-      internalID: -2091003406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_27
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3003704601ca9744b989b0b42472956
-      internalID: -2060157408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_28
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99e3ea06f2a14b64db4078d2f1ff2839
-      internalID: -377737780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_29
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 740a5c071138de44eae11d7ccc9a9b7f
-      internalID: 46767088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_30
+      name: CorpoGris - 16x21_19
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b922e4d796296be44b2edbaba4401dc4
-      internalID: -2020491064
+      spriteID: 341bdf04e993c9745b9750fc2d16af9c
+      internalID: -1925898238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_31
+      name: CorpoGris - 16x21_20
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29131981e4e7ea545b34adafc84a1c07
-      internalID: -503826975
+      spriteID: 82efc67c47bad6b41b0885ba3ae35c9e
+      internalID: -1462627846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_32
+      name: CorpoGris - 16x21_21
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75d1a8241fae22847bb4b525ed2af1cf
-      internalID: -1809936385
+      spriteID: ec139a51c4d3fc149be6d2674af3e221
+      internalID: -1633655829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_33
+      name: CorpoGris - 16x21_22
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ea68b41d59023d4293bc5ecc8abcc75
-      internalID: -2143868531
+      spriteID: 7473722839b41274ca47a7368b9d591a
+      internalID: 1739679948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_Pared-Suelo-Puerta_34
+      name: CorpoGris - 16x21_23
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
-        height: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c60b55d96421eb4aa91ee8d419f9373
-      internalID: 891520295
+      spriteID: 2329e631eaf117a4a944967254a28a8a
+      internalID: -1250058829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoGris - 16x21_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ae952088c81b7458b2cefaf598606d
+      internalID: 1857196237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoGris - 16x21_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c43a612e95a4499217996024312e8
+      internalID: -1687770646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorpoGris - 16x21_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2058caae68b0c5a4e8b067a06fbf7594
+      internalID: -67145460
       vertices: []
       indices: 
       edges: []
@@ -868,41 +700,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tiles_Pared-Suelo-Puerta_0: -604160686
-      Tiles_Pared-Suelo-Puerta_1: -2134490808
-      Tiles_Pared-Suelo-Puerta_10: -1804549339
-      Tiles_Pared-Suelo-Puerta_11: 166336526
-      Tiles_Pared-Suelo-Puerta_12: 559513030
-      Tiles_Pared-Suelo-Puerta_13: -454140188
-      Tiles_Pared-Suelo-Puerta_14: -703646619
-      Tiles_Pared-Suelo-Puerta_15: -2132259654
-      Tiles_Pared-Suelo-Puerta_16: 1379835757
-      Tiles_Pared-Suelo-Puerta_17: -629577703
-      Tiles_Pared-Suelo-Puerta_18: -926068881
-      Tiles_Pared-Suelo-Puerta_19: 1758930695
-      Tiles_Pared-Suelo-Puerta_2: 1389951072
-      Tiles_Pared-Suelo-Puerta_20: -1011050272
-      Tiles_Pared-Suelo-Puerta_21: 1391325941
-      Tiles_Pared-Suelo-Puerta_22: 2020915352
-      Tiles_Pared-Suelo-Puerta_23: -672605235
-      Tiles_Pared-Suelo-Puerta_24: 49281620
-      Tiles_Pared-Suelo-Puerta_25: -1063367727
-      Tiles_Pared-Suelo-Puerta_26: -2091003406
-      Tiles_Pared-Suelo-Puerta_27: -2060157408
-      Tiles_Pared-Suelo-Puerta_28: -377737780
-      Tiles_Pared-Suelo-Puerta_29: 46767088
-      Tiles_Pared-Suelo-Puerta_3: 493633457
-      Tiles_Pared-Suelo-Puerta_30: -2020491064
-      Tiles_Pared-Suelo-Puerta_31: -503826975
-      Tiles_Pared-Suelo-Puerta_32: -1809936385
-      Tiles_Pared-Suelo-Puerta_33: -2143868531
-      Tiles_Pared-Suelo-Puerta_34: 891520295
-      Tiles_Pared-Suelo-Puerta_4: -517530354
-      Tiles_Pared-Suelo-Puerta_5: 564336650
-      Tiles_Pared-Suelo-Puerta_6: -727357283
-      Tiles_Pared-Suelo-Puerta_7: 1142412922
-      Tiles_Pared-Suelo-Puerta_8: -1609661088
-      Tiles_Pared-Suelo-Puerta_9: 1885762263
+      CorpoGris - 16x21_0: 1895488234
+      CorpoGris - 16x21_1: 85762515
+      CorpoGris - 16x21_10: 840333729
+      CorpoGris - 16x21_11: 668715775
+      CorpoGris - 16x21_12: -2006221358
+      CorpoGris - 16x21_13: 1127651499
+      CorpoGris - 16x21_14: -1436770523
+      CorpoGris - 16x21_15: 1979514696
+      CorpoGris - 16x21_16: 1902435635
+      CorpoGris - 16x21_17: 1945219292
+      CorpoGris - 16x21_18: 988047997
+      CorpoGris - 16x21_19: -1925898238
+      CorpoGris - 16x21_2: 761179473
+      CorpoGris - 16x21_20: -1462627846
+      CorpoGris - 16x21_21: -1633655829
+      CorpoGris - 16x21_22: 1739679948
+      CorpoGris - 16x21_23: -1250058829
+      CorpoGris - 16x21_24: 1857196237
+      CorpoGris - 16x21_25: -1687770646
+      CorpoGris - 16x21_26: -67145460
+      CorpoGris - 16x21_3: -149912576
+      CorpoGris - 16x21_4: 2087839968
+      CorpoGris - 16x21_5: -1570372216
+      CorpoGris - 16x21_6: -2126942163
+      CorpoGris - 16x21_7: -1154909102
+      CorpoGris - 16x21_8: -1488339713
+      CorpoGris - 16x21_9: 62390393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

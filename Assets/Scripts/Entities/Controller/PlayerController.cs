@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         if(cmp_mov==null && GetComponent<Movement>()) cmp_mov = GetComponent<Movement>();
+       
     }
 
     // Update is called once per frame
