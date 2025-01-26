@@ -208,7 +208,7 @@ PrefabInstance:
     - target: {fileID: 1066877609791150902, guid: 964b28f3e99ec704b876a7872fd80525, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1181202338, guid: 51b6886e5ea79424d92c8bf6672b0056, type: 3}
+      objectReference: {fileID: -384611679, guid: 51b6886e5ea79424d92c8bf6672b0056, type: 3}
     - target: {fileID: 5818978490648580175, guid: 964b28f3e99ec704b876a7872fd80525, type: 3}
       propertyPath: m_Name
       value: ObjectObstacle (87)
@@ -826,7 +826,7 @@ PrefabInstance:
     - target: {fileID: 1066877609791150902, guid: 964b28f3e99ec704b876a7872fd80525, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1181202338, guid: 51b6886e5ea79424d92c8bf6672b0056, type: 3}
+      objectReference: {fileID: -384611679, guid: 51b6886e5ea79424d92c8bf6672b0056, type: 3}
     - target: {fileID: 5818978490648580175, guid: 964b28f3e99ec704b876a7872fd80525, type: 3}
       propertyPath: m_Name
       value: ObjectObstacle (70)
