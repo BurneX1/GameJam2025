@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    public GameObject open;
-    public GameObject close;
+    public GameObject[] open;
+    public GameObject[] close;
 
     public Animator animator;
 
@@ -16,16 +16,16 @@ public class Door : MonoBehaviour
 
     public void OpenDoor()
     {
-        open.SetActive(true);
-        close.SetActive(false);
+        foreach(GameObject obj in open) obj.SetActive(true);
+        foreach (GameObject obj in close) obj.SetActive(false);
 
         //OpenTrigerAnim
     }
 
     public void CloseDoor()
     {
-        open.SetActive(false);
-        close.SetActive(true);
+        foreach (GameObject obj in open) obj.SetActive(false);
+        foreach (GameObject obj in close) obj.SetActive(true);
 
         //OpenCloseAnim
     }

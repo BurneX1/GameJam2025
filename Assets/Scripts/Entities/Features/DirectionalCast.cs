@@ -68,11 +68,18 @@ public class DirectionalCast : MonoBehaviour
 
     }
 
+    private void OnDrawGizmos()
+    {
+        
+    }
+
 }
 [System.Serializable]
 public class DirectionBool
 {
     public Vector2 direction;
     public bool check;
+    public Vector2 offSet;
     public Transform actualGround;
+
 }

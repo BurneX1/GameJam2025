@@ -83,7 +83,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1895488234, guid: 6fe76a7e45ea62a4d9ef220c4572e0bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -154,7 +154,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.030951023, y: -0.027692795}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -165,7 +165,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 1.5}
+  m_Size: {x: 0.70678043, y: 1.2704134}
   m_EdgeRadius: 0
 --- !u!114 &7941388941318689445
 MonoBehaviour:
@@ -268,7 +268,7 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 64
-  distance: 0.3
+  distance: 0.5
 --- !u!114 &6646198820081989653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,7 +312,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6551200510853785088}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -337,7 +337,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.29037708}
+  m_Offset: {x: 0.03, y: -0.42}
   serializedVersion: 2
   m_Radius: 0.23504
 --- !u!114 &1266235730449120398

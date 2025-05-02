@@ -9,6 +9,8 @@ public class ModGenerator : MonoBehaviour
     public LevelManager levelManager;
 
     public GameObject files;
+    public GameObject arrow;
+    public GameObject UIParent;
     public GameObject[] enemies;
 
     public ModulePack[] modules;
@@ -84,11 +86,28 @@ public class ModGenerator : MonoBehaviour
 
     }
 
+    public void Generatearrow(Transform taraget)
+    {
+        GameObject tempArrow=Instantiate(arrow, UIParent.transform);
+        FollowInCanvas follow;
+        if (tempArrow.GetComponent<FollowInCanvas>() != null)
+        {
+            follow = tempArrow.GetComponent<FollowInCanvas>();
+        }
+        else
+        {
+            follow = tempArrow.AddComponent<FollowInCanvas>();
+        }
+
+        follow.follow = taraget;
+    }
+
     public void CreateFile(Vector2 position)
     {
 
         GameObject fileObj = Instantiate(files);
         fileObj.transform.position = position;
+        Generatearrow(fileObj.transform);
 
 
     }
